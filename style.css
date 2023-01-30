@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: #f9f9ff;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+nav .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem;
+}
+nav .logo h6{
+    font-size: 32px;
+}
+nav .logo a{
+    color: #f40f68;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav .logo h6:hover{
+    color: #f40f68;
+    cursor: pointer;
+}
+#home{
+    padding-top: 80px;
+}
+#home .background{
+    height: 115vh;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url('./images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home .text{
+    margin-top: 200px;
+}
+#home .text h1{
+     color: #fff;
+     font-size: 4rem;
+     font-weight: bold;
+     margin-bottom: 50px;
+}
+#home .text .home-btn, #alert .alert-btn{
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 10px 30px;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all ease-in-out 0.3s;
+}
+#home .text .home-btn:hover{
+    background: linear-gradient(90deg, #f40f68 0%, #f86e3d 55%, #fbcd11 100%);
+    color: #fff;
+}
+#alert .alert-msg{
+    background: linear-gradient(90deg, #f40f68 0%, #f86e3d 55%, #fbcd11 100%);
+    display: flex;
+    margin-top: -80px;
+    padding: 60px 60px;
+    justify-content: space-between;
+}
+#alert .alert-msg h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+#alert .alert-msg .alert-btn{
+    transition: all ease-in-out 0.5s;
+}
+#alert .alert-msg .alert-btn:hover{
+    background-color: black;
+    color: #fff;
+}
+#projects{
+    margin-top: 10rem;
+}
+#projects .project-head p{
+    font-size: 14px;
+}
+#projects .project-head{
+    margin-bottom: 80px;
+}
+#projects .project-cards .card{
+    background: transparent;
+    border: none;
+}
+
+#welcome{
+    margin-top: 5rem;
+}
+
+#welcome .welcome-img{
+    height: 70vh;
+    padding:0 !important;
+}
+
+.welcome-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#welcome .welcome-content{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: black;
+    padding-left:3rem ;
+}
+.welcome-content h3{
+    font-weight: bold;
+    color: white;
+}
+.welcome-content h3 span{
+    color: red;
+}
+.welcome-content p{
+    width: 70%;
+    font-size: small;
+    color: #6c757d!important;
+}
+.welcome-content .welcome-btn{
+    
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    width: 8rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(90deg, #f40f68 0%, #f86e3d 55%, #fbcd11 100%);
+    color: white;
+    font-size: small;
+    padding: 0.6rem 1rem;
+
+}
+
+#footer{
+    margin-top: 5rem;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footer h3{
+    font-weight: bold;
+    color: black;
+}
+#footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer ul li{
+    list-style : none;
+    margin: 0 1rem;
+    color: black;
+    margin-top: 2rem;
+}
+#footer li a{
+    color: black;
+}
+#footer h2{
+    color: #f40f68;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#footer p{
+    color: #6c757d;
+    margin-top: 2rem;
+}
